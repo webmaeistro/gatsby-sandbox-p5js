@@ -1,17 +1,17 @@
 {
   "name": "gatsby-sandbox-p5js",
-  "version": "0.1.1",
-  "description": "",
+  "version": "0.2.1",
+  "description": "Get up and running with gatsbyjs and p5js sketches",
   "author": "Martin Andersen <marander@pm.me> (@webmaeistro)",
   "license": "MIT",
-  "private": true,
-  "keywords": [],
+  "private": false,
+  "keywords": ["gatsby", "gatsby-plugin", "p5js", "react"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/webmaeistro/gatsby-sandbox-p5.git"
+    "url": "https://github.com/webmaeistro/gatsby-sandbox-p5js.git"
   },
   "bugs": {
-    "url": "https://github.com/webmaeistro/gatsby-sandbox-p5/issues"
+    "url": "https://github.com/webmaeistro/gatsby-sandbox-p5js/issues"
   },
   "engines": {
     "node": ">=10"
@@ -21,8 +21,8 @@
     "reset": "rm -rf .cache/ public/ node_modules/ package-lock.json",
     "prep": "rm -rf .cache/ public/ node_modules/ && npm ci",
     "develop": "DEBUG=gatsby* gatsby develop --verbose",
-    "build": "DEBUG=gatsby* gatsby build --verbose",
-    "serve": "DEBUG=gatsby* gatsby serve --verbose",
+    "build": " gatsby build --verbose",
+    "serve": " gatsby serve --verbose",
     "test": "echo \"Error: no test specified -- https://gatsby.app/unit-testing/\" && exit 1"
   },
   "dependencies": {
